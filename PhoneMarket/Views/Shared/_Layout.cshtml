@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link  type="text/css" rel="stylesheet" href="~/Content/Site.css"/>
+</head>
+<body>
+    <div>
+        @Html.ActionLink("На главную", "Index", "Home")<br/>
+        @Html.ActionLink("Список покупателей","PurchaseList","Home")<br />
+
+        @RenderBody()
+    </div>
+</body>
+</html>

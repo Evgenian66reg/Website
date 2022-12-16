@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneMarket", "PhoneMarket.csproj", "{78D5546B-D9F8-477D-9E19-5FDEB7D74018}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78D5546B-D9F8-477D-9E19-5FDEB7D74018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D5546B-D9F8-477D-9E19-5FDEB7D74018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D5546B-D9F8-477D-9E19-5FDEB7D74018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D5546B-D9F8-477D-9E19-5FDEB7D74018}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05E7A916-F480-43F8-9CF4-50695F83BE57}
+	EndGlobalSection
+EndGlobal

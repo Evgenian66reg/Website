@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+
+    <h3>Покупатели интернт-магазина PhoneMarket</h3><br />
+    <table>
+        <thead>
+            <tr>
+                <td>ФИО</td>
+                <td>&nbsp;&nbsp;</td>
+                <td>Email</td>
+                <td>&nbsp;&nbsp;</td>
+                <td>Адрес</td>
+                <td>&nbsp;&nbsp;</td>
+                <td>Время покупки</td>
+                <td>&nbsp;&nbsp;</td>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var purchase in ViewBag.Purchases)
+                {
+                    <tr>
+                        <td>@purchase.FIO</td>
+                        <td>&nbsp;&nbsp;</td>
+                        <td>@purchase.Email</td>
+                        <td>&nbsp;&nbsp;</td>
+                        <td>@purchase.Address</td>
+                        <td>&nbsp;&nbsp;</td>
+                        <td>@purchase.DateTime</td>
+                        <td>&nbsp;&nbsp;</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+
